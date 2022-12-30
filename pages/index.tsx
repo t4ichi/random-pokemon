@@ -1,6 +1,5 @@
 import { useState } from "react";
-import type { NextPage, GetServerSideProps } from "next";
-// import { GetServerSideProps } from "next";
+import type { NextPage, GetStaticProps } from "next";
 
 interface SpriteCategory{
     front_default: string;
@@ -48,7 +47,7 @@ const IndexPage : NextPage<IndexPageProps> = (props: IndexPageProps) => {
     );
 };
 
-export const getServerSideProps: GetServerSideProps = async () => {
+export const getStaticProps: GetStaticProps = async () => {
   const pokemonImage = await fetchPokemonImage();
   return {
     props: {
