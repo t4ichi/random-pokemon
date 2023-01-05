@@ -1,9 +1,7 @@
-# TypeScript+Next.jsで作るポケモンジェネレーター
-
-TypeScriptとNext.jsで作った簡単なアプリケーション
+# TypeScript+Next.js+PokéAPIで作るポケモンジェネレーター
+ポケモンがランダムに表示されるだけの簡単なアプリケーション
 
 ## 使い方
-
 セットアップ
 ```bash
 yarn create next-app --example with-typescript random-pokemon
@@ -14,6 +12,7 @@ yarn create next-app --example with-typescript random-pokemon
 cd random-pokemon
 yarn dev
 ```
-## 自分で作ったアプリケーションをデプロイ
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript&project-name=with-typescript&repository-name=with-typescript)
+## 参考
+サバイバルTypeScript(https://typescriptbook.jp/tutorials/nextjs)
+PokéAPI(https://pokeapi.co/)
