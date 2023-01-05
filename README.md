@@ -1,5 +1,7 @@
 # TypeScript+Next.js+PokéAPIで作るポケモンジェネレーター
-ポケモンがランダムに表示されるだけの簡単なアプリケーション
+ボタンを押すとポケモンのデータを取得して名前や画像を表示するだけのアプリケーションです。
+
+記事→ https://zenn.dev/t4ich1/articles/539615ca2d69be
 
 ## 使い方
 セットアップ
@@ -14,5 +16,6 @@ yarn dev
 ```
 
 ## 参考
-サバイバルTypeScript(https://typescriptbook.jp/tutorials/nextjs)
-PokéAPI(https://pokeapi.co/)
+・サバイバルTypeScript(https://typescriptbook.jp/tutorials/nextjs)
+
+・PokéAPI(https://pokeapi.co/)
